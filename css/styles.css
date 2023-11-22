@@ -173,7 +173,15 @@ a:hover, button:hover, a:focus, button:focus {
 /* PECULIARITIES */
 
 .visually-hidden {
-    display: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 }
 
 .peculiarities .container {
@@ -189,7 +197,7 @@ a:hover, button:hover, a:focus, button:focus {
 }
 
 .peculiarities .container li {
-    flex-basis: calc(100% - 72px) / 4;
+    width: calc(100% - 72px) / 4;
 }
 
 .peculiarities .container h3 {
@@ -265,6 +273,9 @@ a:hover, button:hover, a:focus, button:focus {
     border: 1px solid #e7e9fc;
     padding: 32px 16px;
     border-top: none;
+}
+
+.portfolio-about h3 {
     margin-bottom: 8px;
 }
 
