@@ -304,9 +304,9 @@ footer {
 }
 
 .footer .logo-footer {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     /* color: #F4F4FD; */
-    text-decoration: none;
+    /* text-decoration: none; */
     margin-bottom: 16px;
     display: inline-block;
 }
