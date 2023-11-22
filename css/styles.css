@@ -196,12 +196,8 @@ a:hover, button:hover, a:focus, button:focus {
     gap: 24px;
 }
 
-.peculiarities-item-first {
-    width: calc(100% - 3 * 24px) / 4;
-}
-
 .peculiarities .container li {
-    /* width: calc(100% - 72px) / 4; */
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .peculiarities .container h3 {
@@ -318,9 +314,8 @@ footer a {
     max-width: 264px
 }
 
-.footer .logo-footer {
+.logo-footer {
     display: inline-block;
-    color: #4d5ae5;
 }
 
 .footer .logo-footer .logo-span {
