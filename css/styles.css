@@ -298,26 +298,29 @@ footer {
     padding: 100px 0;
 }
 
-.footer .container {
+/* .footer .container {
     display: flex;
     flex-direction: column;
+} */
+
+.no-flex {
+    display: block;
 }
 
 .footer .logo-footer {
-    /* text-transform: uppercase; */
-    /* color: #F4F4FD; */
-    /* text-decoration: none; */
-    margin-bottom: 16px;
     display: inline-block;
+    margin-bottom: 16px;
+
+    color: #4d5ae5;
 }
 
 .footer p {
     max-width: 264px
 }
 
-.logo-footer {
+/* .logo-footer {
     color: #4d5ae5;
-}
+} */
 
 .footer .logo-footer .logo-span {
     color:#f4f4fd;
