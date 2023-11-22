@@ -1,0 +1,159 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFF;
+    line-height: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* HEADER */
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-span {
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+}
+
+.navigations li a {
+    color: #2E2F42;
+}
+
+.active {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.active:hover, .active:focus {
+    color: #404bbf;
+}
+
+address {
+    font-style: normal;
+}
+
+.contacts a {
+    color: #434455;
+}
+
+.contact-item {
+    letter-spacing: 0.02em;
+}
+
+a:hover, button:hover, a:focus, button:focus {
+    color: #404BBF;
+}
+
+/* PROMO */
+
+.promo {
+    background-color: #2E2F42;
+}
+
+.promo .promo-title {
+    font-size: 56px;
+    font-weight: 700;
+    color: #FFF;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.promo .btn {
+    background-color: #4D5AE5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFF;
+}
+
+.promo .btn:hover, .promo .btn:focus {
+    background-color: #404BBF;
+}
+
+
+/* PECULIARITIES */
+
+/* OUR TEAM */
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.team h2 {
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.team li {
+    background-color: #FFFFFF;
+}
+
+/* OUR PORTFOLIO */
+
+.portfolio h2 {
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
+
+footer a {
+    text-transform: uppercase;
+    color: #F4F4FD;
+    text-decoration: none;
+}
+
+.footer .logo-footer {
+    color: #4d5ae5;
+}
+
+.footer .logo-footer .logo-span {
+    color:#f4f4fd;
+}
+
+/* ALL */
+
+.section-title {
+    font-size: 36px;
+    color: #2e2f42;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.item-title {
+    font-size: 20px;
+    color: #2e2f42;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.item-description {
+    letter-spacing: 0.02em;
+}
+
+button {
+    cursor: pointer;
+}
