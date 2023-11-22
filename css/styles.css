@@ -13,7 +13,58 @@ li {
     list-style: none;
 }
 
+ul {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.container {
+    max-width: 1158px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 120px 0;
+}
+
 /* HEADER */
+
+.inner-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigations {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-items {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-item {
+    padding: 8px 0;
+}
+
+.contact-items {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.contact-item {
+    padding: 8px 0;
+    letter-spacing: 0.02em;
+}
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -51,10 +102,6 @@ address {
     color: #434455;
 }
 
-.contact-item {
-    letter-spacing: 0.02em;
-}
-
 a:hover, button:hover, a:focus, button:focus {
     color: #404BBF;
 }
@@ -63,6 +110,13 @@ a:hover, button:hover, a:focus, button:focus {
 
 .promo {
     background-color: #2E2F42;
+}
+
+.inner-promo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .promo .promo-title {
@@ -80,6 +134,9 @@ a:hover, button:hover, a:focus, button:focus {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFF;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 4px;
 }
 
 .promo .btn:hover, .promo .btn:focus {
@@ -89,7 +146,33 @@ a:hover, button:hover, a:focus, button:focus {
 
 /* PECULIARITIES */
 
+/* .peculiarities-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.inner-peculiarities h2 {
+    text-align: center;
+}
+
+.inner-peculiarities ul{
+    display: flex;
+    gap: 24px;
+}
+
 /* OUR TEAM */
+
+/* .team-inner {
+    display: flex;
+    flex-direction: column;
+} */
+
+.inner-team ul {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 24px; */
+}
 
 .team {
     background-color: #F4F4FD;
@@ -105,7 +188,22 @@ a:hover, button:hover, a:focus, button:focus {
     background-color: #FFFFFF;
 }
 
+.team h3, .team p {
+    text-align: center;
+}
+
 /* OUR PORTFOLIO */
+
+.inner-portfolio ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* gap: 24px; */
+}
+
+.inner-portfolio li {
+    flex-basis: calc(100% - 24px) / 3;
+}
 
 .portfolio h2 {
     line-height: 1.11;
@@ -113,11 +211,16 @@ a:hover, button:hover, a:focus, button:focus {
     text-transform: capitalize;
 }
 
+.portfolio h3, .portfolio p {
+    padding-left: 16px;
+}
+
 /* FOOTER */
 
 footer {
     background-color: #2E2F42;
     color: #F4F4FD;
+    padding: 100px 0;
 }
 
 footer a {
