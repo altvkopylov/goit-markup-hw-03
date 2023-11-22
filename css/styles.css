@@ -303,11 +303,12 @@ footer {
     flex-direction: column;
 }
 
-footer a {
+.footer .logo-footer {
     text-transform: uppercase;
-    color: #F4F4FD;
+    /* color: #F4F4FD; */
     text-decoration: none;
     margin-bottom: 16px;
+    display: inline-block;
 }
 
 .footer p {
@@ -315,7 +316,7 @@ footer a {
 }
 
 .logo-footer {
-    display: inline-block;
+    color: #4d5ae5;
 }
 
 .footer .logo-footer .logo-span {
