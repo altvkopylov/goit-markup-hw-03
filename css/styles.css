@@ -198,12 +198,18 @@ a:hover, button:hover, a:focus, button:focus {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* gap: 24px; */
+    gap: 24px;
 }
 
 .inner-portfolio li {
     flex-basis: calc(100% - 24px) / 3;
+    border: 1px solid #E7E9FC;
 }
+
+.inner-portfolio li {
+    margin-bottom: 24px;
+}
+
 
 .portfolio h2 {
     line-height: 1.11;
